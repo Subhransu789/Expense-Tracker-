@@ -18,6 +18,14 @@ HTML,CSS,JavaScript
 🖼️ Preview
 
 👉 Live Demo:- https://subhransu-expense-tracker.netlify.app/
+🧠 How It Works
+1. Enter a description and amount (positive for income, negative for expense).
+2. Click **Add Transaction**.
+3. The app updates your balance, income, and expenses automatically.
+4. You can delete any transaction using the ❌ button.
+
+
+
 
 ## 🙌 Author
 
