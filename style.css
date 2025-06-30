@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.805);
+}
+
+h2, h3, h4 {
+  margin: 10px 0;
+}
+
+#balance {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.inc-exp-container {
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 10px;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.money {
+  font-size: 1.2rem;
+}
+
+.plus {
+  color: green;
+}
+
+.minus {
+  color: red;
+}
+
+.list {
+  list-style-type: none;
+  margin-bottom: 20px;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.list li {
+  background: #fff;
+  padding: 10px;
+  margin: 10px 0;
+  border-right: 5px solid;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.list li.plus {
+  border-color: green;
+}
+
+.list li.minus {
+  border-color: red;
+}
+
+.delete-btn {
+  cursor: pointer;
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.form-control {
+  margin: 10px 0;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.btn {
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
